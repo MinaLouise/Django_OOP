@@ -21,8 +21,8 @@ class SwordBalloon(Balloon):
         super().__init__()
         self.capacity = 5
 
-class DogBalloon(Balloon)-> None:
-   def __init__(self):
+class DogBalloon(Balloon):
+   def __init__(self)-> None:
         super().__init__()
         self.capacity = 7
 
